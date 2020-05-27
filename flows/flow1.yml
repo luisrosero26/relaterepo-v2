@@ -1,0 +1,23 @@
+completion_text: |-
+  Has finalizado esta actividad
+description: |-
+  Semana 1 - Etica profesional bases
+pages:
+- content: "#Day 1\n<div class=\"lead\">empezar por algo antes de que termin</div>\n\
+    \            "
+  id: page8
+  type: Page
+- content: "#Day 2\n<div class=\"lead\">Segundo dia aburrido de clases</div>\n   \
+    \         "
+  id: page9
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: Semana 1
