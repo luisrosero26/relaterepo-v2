@@ -1,0 +1,19 @@
+completion_text: |-
+  Has terminado la seman 2 puedes continuar
+description: |-
+  Aqui puedes empezar con el curos
+pages:
+- content: "#day 1 semana 1\n<div class=\"lead\">asd asdasd asdasd asdas asd</div>\n\
+    \            "
+  id: page10
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: Semana 2
