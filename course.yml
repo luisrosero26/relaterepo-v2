@@ -1,0 +1,12 @@
+chunks:
+- content: ' <h1>Etica profesional</h1> <div><div class=card><div class=card-body><h4>Semana
+    3</h4><a href=flow:flow4 role=button class="btn btn-default">ENTRAR</a></div></div><div
+    class=card><div class=card-body><h4>Semana 2</h4><a href=flow:flow5 role=button
+    class="btn btn-default">ENTRAR</a></div></div><div class=card><div class=card-body><h4>Semana
+    1</h4><a href=flow:flow1 role=button class="btn btn-default">ENTRAR</a></div></div></div>'
+  id: welcome
+  rules:
+  - if_after: 2020-01-01 13:00:00
+    if_before: 2020-12-01 13:00:00
+    weight: 100
+  title: Etica profesional
